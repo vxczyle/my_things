@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="vanish#0001">
+    <meta property="og:url" content="https://vxczyle.github.io">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="https://media.discordapp.net/attachments/869954405632454707/906890350667390996/1f8025d8316cc93f032496062874dd88.gif?width=400&height=267">
+    <link rel="stylesheet" href="assets/cycleman.css">
+    <title>vxczyle</title>
+    <style>
+        .bg-gif {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('assets/rain.gif') no-repeat center center;
+            background-size: cover;
+            z-index: -1;
+        }
+        .my_name {
+            font-family: "Fira Sans";
+            font-weight: 100;
+            font-style: normal;
+        }
+        .fancy_font {
+            font-family: "Fira Sans";
+            font-weight: 100;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <script>
+            function audioPlay() {
+                var audio = document.getElementById("audio");
+                audio.volume = 0.4;
+                audio.play();
+            }
+        </script>
+        <input type="checkbox" autocomplete="off" id="overlay-toggle">
+        <div class="overlay fullscreen">
+            <label for="overlay-toggle" onclick="audioPlay()">
+                <span class="no-hover" style="font-family: derk; font-size: 0.6em;" class="fancy_font">tap to enter</span>
+                <span class="hover" style="font-family: derk; font-size: 0.6em;" class="fancy_font">click to enter</span>
+            </label>
+        </div>
+        <div class="bg-gif"></div>
+        <audio loop preload="auto" id="audio">
+            <source src="music/stay_the_night_pluggnb.mp3" type="audio/mp3">
+        </audio>
+        <section class="fullscreen text-content">
+            <div id="center">
+                <h1 style="text-shadow: 0 0 0.40em #bababa;" class="my_name">vxczyle</h1>
+                <div class="socials">
+                    <span>
+                        <span class="left_arrow">&gt;</span>
+                        <a href="https://www.roblox.com/users/1041193739/profile" style="text-decoration:none; font-family: derk; font-size: 1em;">roblox</a>
+                    </span>
+                    <span>
+                        <span class="left_arrow">&gt;</span>
+                        <a href="https://discord.gg/t4wRsuetb5" style="text-decoration:none; font-family: derk; font-size: 1em;">discord server</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
