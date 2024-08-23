@@ -1,9 +1,8 @@
 @font-face {
-  font-family: derk;
-  src: url(derk.otf);
+  font-family: 'Argentum Sans', sans-serif;
 }
   html {
-  font-family: mono;
+  font-family: 'Argentum Sans', sans-serif;
 }
 *, *::after, *::before {
   box-sizing: inherit;
@@ -11,7 +10,7 @@
   padding: 0;
 }
 html {
-  font-family: monospace;
+  font-family: 'Argentum Sans', sans-serif;
 }
 *, *::after, *::before {
   box-sizing: inherit;
@@ -62,7 +61,7 @@ body {
   z-index: -1;
 }
 body {
-  font-family:monospace!important;
+  font-family: 'Argentum Sans', sans-serif!important;
   background-color:#000!important;
   color:#fff!important
 }
